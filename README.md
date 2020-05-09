@@ -10,6 +10,8 @@
 [openinventory]: https://github.com/michaelbosik/imgd4000devportfolio/raw/master/images/openinventory.png
 [loaditems]: https://github.com/michaelbosik/imgd4000devportfolio/raw/master/images/loaditems.png
 [resume]: https://github.com/michaelbosik/imgd4000devportfolio/raw/master/images/resume.png
+[tickets]: https://github.com/michaelbosik/imgd4000devportfolio/raw/master/images/tickets.png
+[graph]: https://github.com/michaelbosik/imgd4000devportfolio/raw/master/images/graph.png
 
 # IMGD 4000 - Development Portoflio
 ### Michael Bosik - Computer Science / IMGD major
@@ -41,6 +43,10 @@ Our final list of UI elements is as follows:
 * Help Screen
 * Inventory
 * Tutorial Sequence
+
+Here is a graph that shows the devision of labor within our project at the beginning. We have since made minor changes here and there to help each other out wherever possible but this graph shows the general workload.
+
+![Division of Labor][graph]
 
 ## **I guess I'll learn blueprints...**
 
@@ -115,7 +121,12 @@ I wanted the tutorial stages to advance when a certain condition was met such as
 
 However, when I had these listeners in the UIController, I noticed they no longer performed the actions they were supposed to in game such as jumping, opening the inventory and interacting with actors. This is because no event in the game can be listened to in more than one location. This would be multithreading the event which Unreal Engine does not support.
 
+## **Version Control**
+
+The version control software we used for this project was GitLab. The reason we went with Git was mostly because I had had prior experience using it at a previous internship. I had suggested it to my team to use before the professors even introduced us to perforce as a candidate for project management. I find that GitLab is very user friendly and has many capabilities, most of which are the same as what perforce offers. One of the biggest aspects of GitLab that I enjoy is the ticketing system. Basically, tasks in the project can be written down in a ticket which is a sort of listing on the project board that can be classified with different tags. These tags can be whatever we choose such as "Dev-Team", "Alpha-Release", "UI", etc. The tickets can have comments, code snippets, images, files, due dates and even assigned team members to them for documentation purposes.
+
+![Ticketing][tickets]
+
 ## **Conclusion**
 
 Creating this game was not only an educational experience, but I was able to fully jump on board with the concept of blueprints, so much so that I now prefer them over text programming. The aesthetic and visual functions that you can create are far more entertaining and easy on the mind to look at all day and they are overall easier to understand. I learned a lot about many aspects of the Unreal Engine and feel like I've gained a much better understanding of properly scoping a game and dividing work amongst team members to accomplish goals in a timely manner.
-
